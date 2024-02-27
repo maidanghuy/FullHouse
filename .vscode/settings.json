@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "11_11.C": "cpp",
+        "2_15.C": "cpp",
+        "3_11.C": "cpp",
+        "3_13.C": "cpp",
+        "3_14.C": "cpp",
+        "stdbool.h": "c",
+        "ios": "cpp",
+        "ostream": "cpp",
+        "random": "c",
+        "chrono": "c",
+        "22_04_1.C": "cpp",
+        "stdlib.h": "c",
+        "string.h": "c"
+    }
+}

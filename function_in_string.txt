@@ -1,0 +1,115 @@
+string.h
+
+2
+
+
+1. strlen(s): Lấy độ dài chuỗi s
+
+ex:
+s="xin chao" 
+= strlen(s) =8
+
+
+
+•2.Strcpy(s1,s2); lây chuỗi của s2 gắn vào s1
+
+s1 = "xin chao moi nguoi"
+
+
+
+$? 5l"car beran"
+
+s2 = "cac ban"
+12
+
+
+13 3.Strcat(s1,52): nôi chuỗi s2 vào s1
+
+s1 = "xin chao"
+
+s2 = "cac ban"
+
+→ s1 = "xin chaocac ban"
+
+s2 = "cac ban"
+18
+
+
+194. strcmP (53252): 50 sanh 2 chuoi
+
+
+21
+51 == 52 => 0
+22
+s1 > s2
+=> 1)
+23
+ex1:
+24
+s1 = "ABC"
+25
+s2 = "AAAAA"
+s2 = "AAAAA"
+А == А
+B > A → s1>s2 => 1 ex2:
+s1 = "ABC"
+s2 = "ABCde"
+А == A => В==B=> С==С
+→ s1<s2 => -1 ex3:
+s1 = "ABC"
+s2 = "HK"
+A < H = s1<52 => -1
+ex4:
+s1 = "ABC"
+s2 = "ABC"
+А == А => В==B=> С==С
+→ S1 = s2 = 0
+5.strcharin Chao m nguoi, dau tien xuat hien trong s1
+口X
+48
+49 6.strstr(s1,52): tìm chuỗi s2 xuất hiện đầu tiên trong chuỗi s1
+6. strstr(s1, s2): tìm chuỗi s2 xuất hiện đầu tiên trong chuỗi s1
+s1 = "moi nguoi oi, moi nguoi oi"
+s2 = "oi"
+→> "oi nguoi oi, moi nguoi oi" => không có: NULL
+55 7.strupr(s1): viêt hoa toàn chuôi *
+口X
+52
+53
+54
+58
+59 8.strlwr(s1): viết thường toàn chuỗi *
+s1 = "JbHAjl"
+=> "jbhajl"
+62
+63| g. strfev(s2)n cha chuỗi
+→ "oahc nix"
+66
+67 10.strtok : cắt chuỗi ctype.h
+1. toupper(c): viết hoa 1 kí tự
+6. strstr(s1, s2): tìm chuỗi s2 xuất hiện đầu tiên trong chuỗi s1
+s1 = "moi nguoi oi, moi nguoi oi"
+s2 = "oi"
+→> "oi nguoi oi, moi nguoi oi" => không có: NULL
+55 7.strupr(s1): viêt hoa toàn chuôi *
+口X
+52
+53
+54
+58
+59 8.strlwr(s1): viết thường toàn chuỗi *
+s1 = "JbHAjl"
+=> "jbhajl"
+62
+63| g. strfev(s2)n cha chuỗi
+→ "oahc nix"
+66
+67 10.strtok : cắt chuỗi ctype.h
+1. toupper(c): viết hoa 1 kí tự
+
+ctype.h
+70 1. toupper (c): viết hoa 1 kí tự
+→> 'A"
+2. tolve le): viết thường 1 kl t
+3. islower(c): kiểm tra kí tự thường (T F)
+774. isupper(c): kiêm tra kí tư hoa (T F)
